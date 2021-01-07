@@ -8,7 +8,7 @@
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 counter = 0
 board.each do |board|
-  if board == "X"
+  if board == "X" || board == "O"
     puts "yes"
     counter += 1
   else
