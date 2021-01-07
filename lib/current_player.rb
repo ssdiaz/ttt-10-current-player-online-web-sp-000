@@ -5,7 +5,7 @@
 # set a counter
 # iterate over each board array element to see if x or o, and if so we increment counter by 1
 
-#board = [" ", " ", " ", " ", "X", "O", "X", "X", " "]
+#board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 
 def turn_count (board)
   counter = 0
@@ -24,8 +24,8 @@ end
 
 def current_player (board)
   if turn_count(board) % 2 && turn_count(board) != 2
-    "X"
-  else
     "O"
+  else
+    "X"
   end
 end
