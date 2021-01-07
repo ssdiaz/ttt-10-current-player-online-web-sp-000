@@ -11,7 +11,7 @@ def turn_count (board)
   counter = 0
   board.each do |index|
     if index == "X" || index == "O"
-       counter += 1
+      counter += 1
     end
   end
   counter
@@ -23,5 +23,9 @@ end
 # if even, it's x, if odd it's o
 
 def current_player (board)
-turn_count % 2
+  if turn_count % 2
+    puts "player X turn"
+  else
+    puts "player O turn"
+  end
 end
