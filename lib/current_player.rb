@@ -12,4 +12,4 @@ board.each do |board|
     counter += 1
   end
 end
-  puts counter
+puts counter
