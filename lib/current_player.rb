@@ -16,3 +16,4 @@ def turn_count (board)
   end
   puts counter
 end
+  puts counter
