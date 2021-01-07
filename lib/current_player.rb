@@ -15,5 +15,5 @@ def turn_count (board)
     end
   end
 
-#puts counter
+puts counter.int
 end
