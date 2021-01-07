@@ -7,7 +7,7 @@
 
 #board = [" ", " ", " ", " ", "X", "O", "X", " ", " "]
 
-def turn_count (board)
+def turn_count (board1)
 counter = 0
 board.each do |board|
   if board == "X" || board == "O" || board == "x" || board == "o"
