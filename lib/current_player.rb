@@ -13,7 +13,8 @@ def turn_count (board)
     if board == "X" || board == "O" || board == "x" || board == "o"
       counter += 1
     end
+    puts counter
   end
 
-puts counter
+
 end
