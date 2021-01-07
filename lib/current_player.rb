@@ -11,5 +11,5 @@ board.each do |board|
   if board == "X" || board == "O"
     counter += 1
   end
-  puts counter
 end
+  puts counter
