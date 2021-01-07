@@ -23,7 +23,7 @@ end
 # if even, it's x, if odd it's o
 
 def current_player (board)
-  if turn_count(board) % 2 && turn_count(board) != 2
+  if turn_count(board) % 2 || turn_count(board) == 1
     "O"
   else
     "X"
