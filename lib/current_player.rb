@@ -6,9 +6,10 @@
 # iterate over each board array element to see if x or o, and if so we increment counter by 1
 
 board = [" ", " ", " ", " ", "X", "X", " ", " ", " "]
-counter = 0
+
 
 def turn_count (board)
+counter = 0
 board.each do |board|
   if board == "X" || board == "O"
     counter += 1
