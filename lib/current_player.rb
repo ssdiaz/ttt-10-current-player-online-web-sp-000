@@ -14,5 +14,5 @@ def turn_count (board)
       counter += 1
     end
   end
-  prints counter
+  print counter
 end
