@@ -8,12 +8,12 @@
 #board = [" ", " ", " ", " ", "X", "O", "X", " ", " "]
 
 def turn_count (board)
-counter = 0
-board.each do |board|
-  if board == "X" || board == "O" || board == "x" || board == "o"
-    counter += 1
+  counter = 0
+  board.each do |index|
+    if index == "X" || index == "O" || index == "x" || index == "o"
+      counter += 1
+    end
   end
-end
 
 puts counter
 end
